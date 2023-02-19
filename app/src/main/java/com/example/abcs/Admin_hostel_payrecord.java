@@ -73,34 +73,34 @@ public class Admin_hostel_payrecord extends AppCompatActivity
             txt_dept="Comp";
             txt_yr="BE";
         }
-        if (_1.getText().toString().equals("SE") && comp.getText().toString().equals("Comp")){
+        if (_1.getText().toString().equals("SY") && comp.getText().toString().equals("Comp")){
             txt_dept="Comp";
-            txt_yr="SE";
+            txt_yr="SY";
         }
-        if (_1.getText().toString().equals("TE") && comp.getText().toString().equals("Comp")){
+        if (_1.getText().toString().equals("TY") && comp.getText().toString().equals("Comp")){
             txt_dept="Comp";
-            txt_yr="TE";
+            txt_yr="TY";
         }
-        if (_1.getText().toString().equals("FE") && comp.getText().toString().equals("Comp")){
+        if (_1.getText().toString().equals("FY") && comp.getText().toString().equals("Comp")){
             txt_dept="Comp";
-            txt_yr="FE";
+            txt_yr="FY";
         }
 //mech
         if(_1.getText().toString().equals("BE") && mech.getText().toString().equals("Mech")){
             txt_dept="Mech";
             txt_yr="BE";
         }
-        if (_1.getText().toString().equals("SE") && mech.getText().toString().equals("Mech")){
+        if (_1.getText().toString().equals("SY") && mech.getText().toString().equals("Mech")){
             txt_dept="Mech";
-            txt_yr="SE";
+            txt_yr="SY";
         }
-        if (_1.getText().toString().equals("TE") && mech.getText().toString().equals("Mech")){
+        if (_1.getText().toString().equals("TY") && mech.getText().toString().equals("Mech")){
             txt_dept="Mech";
-            txt_yr="TE";
+            txt_yr="TY";
         }
-        if (_1.getText().toString().equals("FE") && mech.getText().toString().equals("Mech")){
+        if (_1.getText().toString().equals("FY") && mech.getText().toString().equals("Mech")){
             txt_dept="Mech";
-            txt_yr="FE";
+            txt_yr="FY";
         }
 
 //civil
@@ -108,51 +108,51 @@ public class Admin_hostel_payrecord extends AppCompatActivity
             txt_dept="Civil";
             txt_yr="BE";
         }
-        if (_1.getText().toString().equals("SE") && cvil.getText().toString().equals("Civil")){
+        if (_1.getText().toString().equals("SY") && cvil.getText().toString().equals("Civil")){
             txt_dept="Civil";
-            txt_yr="SE";
+            txt_yr="SY";
         }
-        if (_1.getText().toString().equals("TE") && cvil.getText().toString().equals("Civil")){
+        if (_1.getText().toString().equals("TY") && cvil.getText().toString().equals("Civil")){
             txt_dept="Civil";
-            txt_yr="TE";
+            txt_yr="TY";
         }
-        if (_1.getText().toString().equals("FE") && cvil.getText().toString().equals("Civil")){
+        if (_1.getText().toString().equals("FY") && cvil.getText().toString().equals("Civil")){
             txt_dept="Civil";
-            txt_yr="FE";
+            txt_yr="FY";
         }
         //entc
         if(_1.getText().toString().equals("BE") && entc.getText().toString().equals("ENTC")){
             txt_dept="ENTC";
             txt_yr="BE";
         }
-        if (_1.getText().toString().equals("SE") && entc.getText().toString().equals("ENTC")){
+        if (_1.getText().toString().equals("SY") && entc.getText().toString().equals("ENTC")){
             txt_dept="ENTC";
-            txt_yr="SE";
+            txt_yr="SY";
         }
-        if (_1.getText().toString().equals("TE") && entc.getText().toString().equals("ENTC")){
+        if (_1.getText().toString().equals("TY") && entc.getText().toString().equals("ENTC")){
             txt_dept="ENTC";
-            txt_yr="TE";
+            txt_yr="TY";
         }
-        if (_1.getText().toString().equals("FE") && entc.getText().toString().equals("ENTC")){
+        if (_1.getText().toString().equals("FY") && entc.getText().toString().equals("ENTC")){
             txt_dept="ENTC";
-            txt_yr="FE";
+            txt_yr="FY";
         }
 //it
         if(_1.getText().toString().equals("BE") && it.getText().toString().equals("IT")){
             txt_dept="IT";
             txt_yr="BE";
         }
-        if (_1.getText().toString().equals("SE") && it.getText().toString().equals("IT")){
+        if (_1.getText().toString().equals("SY") && it.getText().toString().equals("IT")){
             txt_dept="IT";
-            txt_yr="SE";
+            txt_yr="SY";
         }
-        if (_1.getText().toString().equals("TE") && it.getText().toString().equals("IT")){
+        if (_1.getText().toString().equals("TY") && it.getText().toString().equals("IT")){
             txt_dept="IT";
-            txt_yr="TE";
+            txt_yr="TY";
         }
-        if (_1.getText().toString().equals("FE") && it.getText().toString().equals("IT")){
+        if (_1.getText().toString().equals("FY") && it.getText().toString().equals("IT")){
             txt_dept="IT";
-            txt_yr="FE";
+            txt_yr="FY";
         }
 
         Toast.makeText(Admin_hostel_payrecord.this, txt_dept, Toast.LENGTH_SHORT).show();

@@ -50,25 +50,25 @@ public class Admin_Collage_payrecod_classwise extends AppCompatActivity {
                 // Toast.makeText(Admin_class_wise_sort.this, comp.getText().toString(), Toast.LENGTH_SHORT).show();
                 if(comp.getText().toString().equals("Comp")){
                     intent.putExtra("deco1","Comp");
-                    intent.putExtra("class1","FE");
+                    intent.putExtra("class1","FY");
                 }else if(it.getText().toString().equals("IT")){
                     intent.putExtra("deco2","IT");
-                    intent.putExtra("class1","FE");
+                    intent.putExtra("class1","FY");
                 }
                 else  if(entc.getText().toString().equals("ENTC")){
                     intent.putExtra("deco3","ENTC");
-                    intent.putExtra("class1","FE");
+                    intent.putExtra("class1","FY");
                 }
                 else if(cvil.getText().toString().equals("Civil")){
                     intent.putExtra("deco4","Civil");
-                    intent.putExtra("class1","FE");
+                    intent.putExtra("class1","FY");
                 }
                 else if(mech.getText().toString().equals("Mech")){
                     intent.putExtra("deco5","Mech");
-                    intent.putExtra("class1","FE");
+                    intent.putExtra("class1","FY");
                 }
 
-                //intent.putExtra("class1","FE");
+                //intent.putExtra("class1","FY");
                 //   Toast.makeText(Admin_class_wise_sort.this, comp.getText().toString(), Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
@@ -80,26 +80,26 @@ public class Admin_Collage_payrecod_classwise extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(Admin_Collage_payrecod_classwise.this,Admin_Collage_payrecod.class);
                 //  intent.putExtra("deptnname","IT");
-                // intent.putExtra("class2","SE");
+                // intent.putExtra("class2","SY");
 
                 if(comp.getText().toString().equals("Comp")){
                     intent.putExtra("deco1","Comp");
-                    intent.putExtra("class1","SE");
+                    intent.putExtra("class1","SY");
                 }else if(it.getText().toString().equals("IT")){
                     intent.putExtra("deco2","IT");
-                    intent.putExtra("class1","SE");
+                    intent.putExtra("class1","SY");
                 }
                 else  if(entc.getText().toString().equals("ENTC")){
                     intent.putExtra("deco3","ENTC");
-                    intent.putExtra("class1","SE");
+                    intent.putExtra("class1","SY");
                 }
                 else if(cvil.getText().toString().equals("Civil")){
                     intent.putExtra("deco4","Civil");
-                    intent.putExtra("class1","SE");
+                    intent.putExtra("class1","SY");
                 }
                 else if(mech.getText().toString().equals("Mech")){
                     intent.putExtra("deco5","Mech");
-                    intent.putExtra("class1","SE");
+                    intent.putExtra("class1","SY");
                 }
 
 
@@ -112,25 +112,25 @@ public class Admin_Collage_payrecod_classwise extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(Admin_Collage_payrecod_classwise.this,Admin_Collage_payrecod.class);
                 //  intent.putExtra("deptnname","IT");
-                //  intent.putExtra("class3","TE");
+                //  intent.putExtra("class3","TY");
                 if(comp.getText().toString().equals("Comp")){
                     intent.putExtra("deco1","Comp");
-                    intent.putExtra("class1","TE");
+                    intent.putExtra("class1","TY");
                 }else if(it.getText().toString().equals("IT")){
                     intent.putExtra("deco2","IT");
-                    intent.putExtra("class1","TE");
+                    intent.putExtra("class1","TY");
                 }
                 else  if(entc.getText().toString().equals("ENTC")){
                     intent.putExtra("deco3","ENTC");
-                    intent.putExtra("class1","TE");
+                    intent.putExtra("class1","TY");
                 }
                 else if(cvil.getText().toString().equals("Civil")){
                     intent.putExtra("deco4","Civil");
-                    intent.putExtra("class1","TE");
+                    intent.putExtra("class1","TY");
                 }
                 else if(mech.getText().toString().equals("Mech")){
                     intent.putExtra("deco5","Mech");
-                    intent.putExtra("class1","TE");
+                    intent.putExtra("class1","TY");
                 }
                 startActivity(intent);
             }
